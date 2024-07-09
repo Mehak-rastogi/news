@@ -28,7 +28,7 @@ export default function NewsPage({ country = "in", category = "general", setProg
       setLoading(false);
       setProgress(100);
     } catch (error) {
-      console.error("Error fetching news:", error);
+      console.log("Error fetching news:", error);
       // Handle error: set loading state or display error message
       setLoading(false);
     }
